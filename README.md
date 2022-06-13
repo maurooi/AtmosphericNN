@@ -14,7 +14,7 @@ z<sub>0</sub>: roughenss of the terrain.
 
 U: wind speed (for the homogeneous and isotropic models).
 
-U<sub>ref</sub>: wind speed at the reference height of 10 m.
+U<sub>ref</sub>: wind speed at the reference height of 10 m (for the surface layer model).
 
 &psi;: angle spanned by the detector arm and the wind speed directions.
 
