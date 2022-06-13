@@ -57,7 +57,7 @@ We present five data files:
 
    | Roughness | Wind speed at 10 m from terrain | r0 | Noise |
    | :-: | :-: | :-: | :-: |
-   | z,sub>0</sub> | U<sub>ref</sub> (m/s) | &psi; (rad) | &radic;S<sub>h</sub> (Hz<sup>-1/2</sup>) |
+   | z,sub>0</sub> | U<sub>ref</sub> (m/s) | r0 (m) | &radic;S<sub>h</sub> (Hz<sup>-1/2</sup>) |
    
    The other parameters are fixed at the values: f = 2 Hz, &psi; = 0.
 
