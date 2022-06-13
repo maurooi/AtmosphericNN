@@ -27,9 +27,9 @@ S<sub>h</sub>: Power spectrum.
 
 ### [Homogeneous-isotropic turbulence model with finite correlation time](./HI_with_finite_correlation_time)
 
-### [Surface layer model](./Surface_layer)
+### [Surface layer model](./Surface_layer/)
 We present five data files:
-1. [`noise_vs_nu.dat`](./noise_vs_nu.dat): contains noise spectra as a function of the frequency written in the format
+1. [`noise_vs_nu.dat`](./Surface_layer/noise_vs_nu.dat): contains noise spectra as a function of the frequency written in the format
 
    | Detector depth | Roughness | Wind speed at 10 m from terrain | Frequency | Noise |
    | :-: | :-: | :-: | :-: | :-: |
@@ -37,7 +37,7 @@ We present five data files:
    
    For this dataset, the wind speed is parallel to the detector arm, so &psi; = 0.
 
-2. [`varying_kmax.dat`](./varying_kmax.dat): contains noise spectra as a function of the frequency computed at different values of the upper cutoff in the integral over the wavenumber k. Data files are written in the format
+2. [`varying_kmax.dat`](./Surface_layer/varying_kmax.dat): contains noise spectra as a function of the frequency computed at different values of the upper cutoff in the integral over the wavenumber k. Data files are written in the format
 
    | Cutoff | Frequency | Noise |
    | :-: | :-: | :-: |
@@ -45,7 +45,7 @@ We present five data files:
    
    The other parameters are fixed at the values: r<sub>0</sub> = 5 m, z<sub>0</sub> = 0.1 m, &psi; = 0.
 
-3. [`varying_x3min.dat`](./varying_x3min.dat): contains noise spectra as a function of the frequency computed at different values of the lower cutoff of the integral over the height x<sub>3</sub>. Data files are written in the format
+3. [`varying_x3min.dat`](./Surface_layer/varying_x3min.dat): contains noise spectra as a function of the frequency computed at different values of the lower cutoff of the integral over the height x<sub>3</sub>. Data files are written in the format
 
    | Cutoff | Frequency | Noise |
    | :-: | :-: | :-: |
@@ -53,7 +53,7 @@ We present five data files:
    
    The other parameters are fixed at the values: r<sub>0</sub> = 5 m, z<sub>0</sub> = 0.1 m, &psi; = 0.
 
-3. [`noise_vs_r0.dat`](./noise_vs_r0.dat): contains noise spectra as a function of the detector depth written in the format
+3. [`noise_vs_r0.dat`](./Surface_layer/noise_vs_r0.dat): contains noise spectra as a function of the detector depth written in the format
 
    | Roughness | Wind speed at 10 m from terrain | r0 | Noise |
    | :-: | :-: | :-: | :-: |
@@ -61,7 +61,7 @@ We present five data files:
    
    The other parameters are fixed at the values: f = 2 Hz, &psi; = 0.
 
-5. [`noise_vs_psi.dat`](./noise_vs_psi.dat): contains noise spectra as a function of the angle between the detector arm and the wind speed written in the format
+5. [`noise_vs_psi.dat`](./Surface_layer/noise_vs_psi.dat): contains noise spectra as a function of the angle between the detector arm and the wind speed written in the format
    | Wind speed at 10 m from terrain | Angle | Noise |
    | :-: | :-: | :-: |
    | U<sub>ref</sub> (m/s) | &psi; (rad) | &radic;S<sub>h</sub> (Hz<sup>-1/2</sup>) |
