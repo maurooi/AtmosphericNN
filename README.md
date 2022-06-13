@@ -23,7 +23,7 @@ f: frequency.
 S<sub>h</sub>: Power spectrum.
 
 ## Data format
-### [Homogeneous-isotropic turbulence model in the frozen regime]
+### [Homogeneous-isotropic turbulence model in the frozen regime](./HI_ft)
 We present here a [Mathematica notebook](./HI_ft/Sg.nb) containing the exact solution of the integral (15) in [1].
 
 ### [Homogeneous-isotropic turbulence model with finite correlation time](./HI_with_finite_correlation_time)
