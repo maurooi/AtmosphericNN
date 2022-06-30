@@ -27,7 +27,7 @@ S<sub>h</sub>: Power spectrum.
 We present here a [Mathematica notebook](./HI_ft/Sg.nb) containing the exact solution of the integral (15) in [1].
 
 ### [Homogeneous-isotropic turbulence model with finite correlation time](./HI_with_finite_correlation_time)
-We present three data files:
+We present five data files:
 1. [`noise_vs_f.dat`](./HI_finite_corr_time/noise_vs_f.dat): contains noise spectra as a function of the frequency, written in the format
 
    | Detector depth | Energy loss rate per unit mass | Wind speed | Frequency | Noise |
@@ -51,9 +51,25 @@ We present three data files:
    | U (m/s) | &psi; (rad) | &radic;S<sub>h</sub> (Hz<sup>-1/2</sup>) |
    
    The other parameters are fixed at the values: f = 2 Hz, r<sub>0</sub> = 5 m, &Escr; = 0.1 m<sup>2</sup>/s<sup>3</sup>.
+   
+4. [`2D_Noise_vs_f_energyloss.dat`](./HI_finite_corr_time/2D_Noise_vs_f_energyloss.dat): contains noise spectra as a function of the frequencies for several values of the energy-loss rate, written in the format
+
+   | Energy loss rate per unit mass | Frequency | Noise |
+   | :-: | :-: | :-: |
+   | &Escr; (m<sup>2</sup>/s<sup>3</sup>) | f (Hz) | &radic;S<sub>h</sub> (Hz<sup>-1/2</sup>) |
+   
+   The other parameters are fixed at the values: U = 10 m/s, &psi; = 0.
+   
+5. [`2D_Noise_vs_f_U.dat`](./HI_finite_corr_time/2D_Noise_vs_f_U.dat): contains noise spectra as a function of the frequencies for several values of the wind speed, written in the format
+
+   | Wind speed | Frequency | Noise |
+   | :-: | :-: | :-: |
+   | U (m/s) | f (Hz) | &radic;S<sub>h</sub> (Hz<sup>-1/2</sup>) |
+   
+   The other parameters are fixed at the values: &Escr; = 0.1 m<sup>2</sup>/s<sup>3</sup>, &psi; = 0.
 
 ### [Surface layer model](./Surface_layer/)
-We present five data files:
+We present nine data files:
 1. [`noise_vs_f.dat`](./Surface_layer/noise_vs_f.dat): contains noise spectra as a function of the frequency, written in the format
 
    | Detector depth | Roughness | Wind speed at 10 m from terrain | Frequency | Noise |
@@ -91,4 +107,11 @@ We present five data files:
    | :-: | :-: | :-: |
    | U<sub>ref</sub> (m/s) | &psi; (rad) | &radic;S<sub>h</sub> (Hz<sup>-1/2</sup>) |
    
-   The other parameters are fixed at the values: r<sub>0</sub> = 5 m, z<sub>0</sub> = 0.1 m, U<sub>ref</sub> = 10 m/s.
+   The other parameters are fixed at the values: r<sub>0</sub> = 5 m, z<sub>0</sub> = 0.1 m, &psi; = 0.
+   
+6. [`noise_vs_uref.dat`](./Surface_layer/noise_vs_uref.dat): contains noise spectra as a function of the reference wind speed, written in the format
+   | Detector depth | Roughness parameter | Wind speed at 10 m from terrain | Noise |
+   | :-: | :-: | :-: | :-: |
+   | r<sub>0</sub> (m) | z<sub>0</sub> (m) | U<sub>ref</sub> (m/s) | &radic;S<sub>h</sub> (Hz<sup>-1/2</sup>) |
+   
+   The other parameters are fixed at the values: &psi; = 0.
